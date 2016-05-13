@@ -1,6 +1,9 @@
 language:
   - cpp
 
+git:
+  submodule: true
+
 script:
   - mkdir build
   - cd build
