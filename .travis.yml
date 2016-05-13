@@ -13,3 +13,4 @@ script:
 
 notifications:
   slack: ucsdnetworking:N4Aa0lA8zJy7Icn4znrVydQF
+  email: false
