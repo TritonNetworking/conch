@@ -1,0 +1,12 @@
+language:
+  - cpp
+
+script:
+  - mkdir build
+  - cd build
+  - cmake ..
+  - make
+  - ./unit_tests
+
+notifications:
+  slack: ucsdnetworking:N4Aa0lA8zJy7Icn4znrVydQF
